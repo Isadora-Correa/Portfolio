@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Isadora Correa" />
+  <meta name="description"
+    content="Meu nome é Isadora, sou apaixonada por tecnologia, com foco em banco de dados, nuvem e redes sociais." />
+  <meta name="keywords"
+    content="sites, web, desenvolvimento, frontend, isadora, ui designer, programadora, isadoracode, front-end, designer, ui, isa, freelancer, freela, website, portfólio" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#5B99C2" />
+  <meta name="copyright" content="Isadora Correa 2024" />
+  <meta http-equiv="content-language" content="pt-br" />
+  <meta property="og:title" content="Portfólio de Isadora Correa" />
+  <meta property="og:description" content="Portfólio de Isadora Correa" />
+
+  <!--
+    - favicon
+    -->
+  <link rel="shortcut icon" href="./assets/img/icones/icone-logo.png" type="image/x-icon" />
+
+  <!--EXPORTA FONTES-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!--EXPORTA O CSS-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!--DEFINE ICONE NA BARRA DE NAVEGAÇÃO DO NAVEGADOR-->
+  <link rel="icon" href="assets/image/logo.svg" />
+  <title>Portfólio de Isadora Correa</title>
+</head>
+
+<body>
+  <header>
+    <div class="grid-layout">
+      <nav>
+        <a href="#s-home">
+          <ion-icon name="home"></ion-icon>
+        </a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="#s-about">Sobre</a>
+          </li>
+          <li>
+            <a href="#s-experience">Experiência</a>
+          </li>
+          <li>
+            <a href="#s-skills">Conhecimentos</a>
+          </li>
+          <li>
+            <a href="#s-certificates">Certificados</a>
+          </li>
+          <li>
+            <a href="#s-projects">Projetos</a>
+          </li>
+          <li>
+            <a href="#s-p-techs">P-techs</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Página Inicial do Projeto-->
+
+  <main>
+    <section id="s-home">
+      <div class="grid-layout">
+        <div id="home">
+          <div id="home-container-text">
+            <h1 class="delayMediumReveal">
+              Seja bem-vindo ao meu mundo!
+              <span>Prazer em te conhecer,</span> espero que goste dos meus
+              projetos ;)
+            </h1>
+            <p class="typewriter">
+              Uma combinação de conhecimento em Nuvem, Desenvolvimento Web e
+              Integração de Sistemas, garantindo resultados de alta qualidade
+              e impacto no mercado.
+            </p>
+
+            <a href="#s-about">Quem é a Isadora?</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="s-about">
+      <div class="grid-layout">
+        <div>
+          <div id="creator-photo" class="delayMediumReveal">
+            <h3 class="delayExtraBigReveal">Olá, tudo bem?</h3>
+          </div>
+          <div>
+            <h4 class="delayMediumReveal">Quem sou</h4>
+            <h2 class="delaySmallReveal">Isadora Correa de Carvalho</h2>
+            <h3 class="delayMediumReveal">
+              Programadora Júnior e Social Mídia
+            </h3>
+
+            <p class="delayLargeReveal">
+              Meu nome é Isadora Correa de Carvalho, sou apaixonada por
+              tecnologia gosto de diversas áreas, como Nuvem, Banco de Dados e
+              Redes Sociais. Atualmente sou estagiária na Uniten, onde
+              trabalho na área de TI e administração, além de ter
+              certificações AWS. Sempre busco aprender mais e aplicar meus
+              conhecimentos em projetos que entreguem inovação e eficiência.
+            </p>
+
+            <!-- Contatos -->
+            <nav class="delayLargeReveal">
+              <ul>
+                <li>
+                  <a href="https://www.instagram.com/isaahcorrea_/?igsh=NW0xb2VlNWFxZThv" rel="noopener"
+                    target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/isadoracorrea/" rel="noopener" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/Isadora5959" rel="noopener" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:isadoracorreacarvalho11@gmail.com" rel="noopener" target="_blank">
+                    <ion-icon name="mail"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Experiências Profissionais -->
+    <section id="s-experience">
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">Experiências<span>.</span></h2>
+        <div id="experience">
+          <div class="option-experience intervalCardReveal">
+            <ul>
+              <li class="company active" onclick="showContent('livraria')">
+                Livraria Pedagógica
+              </li>
+              <li class="company" onclick="showContent('uniten')">
+                UNITEN
+              </li>
+            </ul>
+          </div>
+
+          <!-- Experiência 1 -->
+          <div class="text-experience" id="livraria">
+            <div>
+              <h4 class="titleExperience">Auxiliar de Cadastro</h4>
+              <p class="dateExperience">
+                Dez 2022 - Abril 2024 (1 ano 5 meses)
+              </p>
+            </div>
+            <h5 class="companyExperience">Livraria Pedagógica</h5>
+            <p class="changeExperience">
+              No meu primeiro trabalho na Papelaria Pedagógica, fui
+              responsável pelo cadastro de produtos no site online da empresa.
+              Minha função envolvia a inserção e atualização de informações
+              detalhadas sobre os produtos, incluindo descrições, preços e
+              imagens, garantindo que os clientes tivessem acesso a dados
+              precisos e organizados. Essa experiência me ajudou a desenvolver
+              habilidades em gestão de dados e atenção aos detalhes. Além
+              disso, trabalhei na loja física, direcionava os clientes até os
+              produtos e contribuía com as postagens no Instagram da loja.
+              Essas tarefas me permitiram aprimorar minhas habilidades em
+              atendimento ao cliente e redes sociais.
+            </p>
+          </div>
+
+          <!-- Experiência 2 -->
+          <div class="text-experience" id="uniten" style="display: none">
+            <div>
+              <h4 class="titleExperience">Suporte de TI e Secretária</h4>
+              <p class="dateExperience">Jun 2024 - Atualmente</p>
+            </div>
+            <h5 class="companyExperience">UNITEN - Prefeitura de Sorocaba</h5>
+            <p class="changeExperience">
+              Na Uniten, atuo como estagiária e exerço uma variedade de funções
+              que me permitem desenvolver habilidades técnicas e administrativas.
+              Na área de TI, ajudo a compartilhar e organizar arquivos, prestar suporte
+              técnico e, recentemente, criei um QR code que facilita o acesso ao site.
+              Também dou apoio na gestão de matrículas e recepção, orientando pessoas
+              para se localizarem e montando projetores para apresentações. Essa
+              experiência tem sido fundamental para o meu crescimento profissional, pois
+              me permite aplicar meus conhecimentos e contribuir para a missão de capacitação
+              e desenvolvimento da Uniten.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Seção Conhecimentos-->
+    <section id="s-skills">
+      <div class="grid-layout">
+        <div id="skills">
+          <article id="skills-text">
+            <h2 class="delaySmallReveal">Conhecimentos <span>.</span></h2>
+            <p class="delayMediumReveal changeDescription">
+              <!--O que escrever vai aparecer dentro dessa tag!!-->
+            </p>
+          </article>
+
+          <div id="skills-cards">
+            <article class="html intervalCardReveal"
+              data-description="Conhecimento avançado em HTML5. Criação de sites acessíveis, semânticos e compatíveis com SEO, focando na estrutura clara de páginas para melhorar a experiência do usuário.">
+              <ion-icon name="logo-html5"></ion-icon>
+            </article>
+        
+            <article class="css intervalCardReveal"
+              data-description="Experiência com CSS3, Flexbox, Grid e design responsivo. Habilidade em estilizar interfaces modernas e acessíveis, otimizando layouts para diferentes dispositivos e resoluções.">
+              <ion-icon name="logo-css3"></ion-icon>
+            </article>
+        
+            <article class="js intervalCardReveal"
+              data-description="Habilidade com JavaScript para manipulação de DOM, criação de interatividade, lógica de programação e uso de APIs para aprimorar a usabilidade e as funcionalidades de aplicações web.">
+              <ion-icon name="logo-javascript"></ion-icon>
+            </article>
+        
+            <article class="python intervalCardReveal"
+              data-description="Conhecimento em Python para automação de tarefas, desenvolvimento de scripts e análise de dados, com foco em eficiência e clareza no código.">
+              <ion-icon name="logo-python"></ion-icon>
+            </article>
+        
+            <article class="react intervalCardReveal"
+              data-description="Familiaridade com React.js para desenvolvimento de interfaces dinâmicas e componentizadas, uso de hooks e integração com APIs para criar experiências de usuário interativas.">
+              <ion-icon name="cloud-outline"></ion-icon>
+            </article>
+        
+            <article class="firebase intervalCardReveal"
+              data-description="Experiência com Firebase para autenticação de usuários, banco de dados em tempo real, armazenamento e hospedagem de aplicações web, otimizando a escalabilidade e segurança.">
+              <ion-icon name="logo-firebase"></ion-icon>
+            </article>
+        
+            <article class="design intervalCardReveal"
+              data-description="Conhecimento em design gráfico e criação de layouts utilizando Figma e Photoshop, com foco em UX/UI e desenvolvimento de interfaces visualmente atraentes e intuitivas.">
+              <ion-icon name="color-palette-outline"></ion-icon>
+            </article>
+        
+            <article class="programming intervalCardReveal"
+              data-description="Desenvolvimento em C# para criação de aplicações robustas e diversas, aplicando boas práticas de programação orientada a objetos e arquitetura de software.">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </article>
+        
+            <article class="programming intervalCardReveal"
+              data-description="Conhecimento em PHP para desenvolvimento web, criando back-ends funcionais e integrando bancos de dados e APIs para sites dinâmicos e responsivos.">
+              <ion-icon name="globe-outline"></ion-icon>
+            </article>
+        
+            <article class="database intervalCardReveal"
+              data-description="Experiência com SQL Server para gerenciamento de banco de dados, incluindo consultas avançadas, otimização de desempenho e manutenção de integridade de dados.">
+              <ion-icon name="server-outline"></ion-icon>
+            </article>
+        
+            <article class="cloud intervalCardReveal"
+              data-description="Habilidades em serviços de nuvem AWS, incluindo gerenciamento de instâncias EC2, S3, e RDS, além de práticas de segurança e escalabilidade para soluções em nuvem.">
+              <ion-icon name="cloud-outline"></ion-icon>
+            </article>
+        
+            <article class="gameDev intervalCardReveal"
+              data-description="Experiência em desenvolvimento de jogos com Godot, incluindo criação de mecânicas de jogo, design de níveis e implementação de animações e físicas.">
+              <ion-icon name="game-controller-outline"></ion-icon>
+            </article>
+        
+            <article class="mobileDev intervalCardReveal"
+              data-description="Desenvolvimento mobile com React Native, criação de interfaces responsivas e integração com APIs para aplicações híbridas eficientes e compatíveis com iOS e Android.">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </article>
+        
+            <article class="design intervalCardReveal"
+              data-description="Criação de layouts e design com Canva, desenvolvendo materiais visuais para redes sociais e campanhas com foco em estética e clareza da comunicação.">
+              <ion-icon name="brush-outline"></ion-icon>
+            </article>
+        </div>
+        
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+
+    <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage">
+      <div id="caption"></div>
+    </div>
+
+    <!--Seção Certificados-->
+
+    <section id="s-certificates">
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">Certificados<span>.</span></h2>
+        <div id="services">
+          <article class="intervalCardReveal">
+            <div>
+                <img src="assets/image/certificates/facens_5g.png" width="100px" height="100px" alt="ícone layers" />
+            </div>
+            <h3>Tecnologia 5G</h3>
+            <p>
+                O curso aborda a evolução das redes móveis até o 5G, destacando seus benefícios e características. Inclui a arquitetura do 5G, suas tecnologias fundamentais, e aplicações em IoT, realidade aumentada e jogos em nuvem. Também discute desafios de segurança e implementação.
+            </p>
+        </article>
+        
+        
+
+        <article class="intervalCardReveal">
+          <div>
+              <img src="assets/image/certificates/certificado_arduino.png" width="100px" height="100px" alt="ícone código" />
+          </div>
+          <h3>Arduino</h3>
+          <p>
+              O curso abrange temas como eletricidade básica, lógica de programação, estruturas de programação, e uso de sensores, LEDs, buzzer, e motores, além de práticas com displays e controle remoto.
+          </p>
+      </article>
+      
+
+      <article class="intervalCardReveal">
+        <div>
+            <img src="assets/image/certificates/certificado_fundamentos_arquitetura.png" width="100px" height="100px" alt="ícone código" />
+        </div>
+        <h3>Fundamentos de Arquitetura de Sistemas</h3>
+        <p>
+            Curso que apresenta os princípios básicos da arquitetura de sistemas, focando em componentes e 
+            práticas para construir sistemas eficientes.
+        </p>
+    </article>
+    
+    
+
+    <article class="intervalCardReveal">
+      <div>
+          <img src="assets/image/certificates/certificado_aws.png" width="100px" height="100px" alt="ícone imagem" />
+      </div>
+      <h3>Programa AWS re/Start - Escola da Nuvem</h3>
+      <p>
+          Curso intensivo com foco em habilidades técnicas e comportamentais em 
+          nuvem, incluindo aulas ao vivo e mentoria, totalizando 181 horas.
+      </p>
+  </article>
+  
+
+  <article class="intervalCardReveal">
+    <div>
+        <img src="assets/image/certificates/certificado_biblioteca_jQuery.png" width="100px" height="100px" alt="ícone layers" />
+    </div>
+    <h3>Introdução à Biblioteca jQuery</h3>
+    <p>
+        Curso de 2 horas que ensina os fundamentos da biblioteca jQuery, 
+        abordando manipulação de elementos DOM, eventos e animações 
+        para facilitar o desenvolvimento web e melhorar a interação do usuário.
+    </p>
+</article>
+
+
+<article class="intervalCardReveal">
+  <div>
+      <img src="assets/image/certificates/certificado_bootstrap.png" width="100px" height="100px" alt="ícone código" />
+  </div>
+  <h3>Construindo Páginas para Internet com Bootstrap</h3>
+  <p>
+      Curso de 4 horas que ensina a utilizar o Bootstrap para criar páginas web responsivas 
+      e atraentes, abordando componentes, layout e personalização para otimizar a experiência 
+      do usuário em diferentes dispositivos.
+  </p>
+</article>
+
+
+<article class="intervalCardReveal">
+  <div>
+      <img src="assets/image/certificates/certificado_fundamentos_python.png" width="100px" height="100px" alt="ícone código" />
+  </div>
+  <h3>Fundamentos de Python e Aplicações</h3>
+  <p>
+      o curso Aborda os princípios básicos da linguagem Python, incluindo sintaxe, 
+      estruturas de controle e aplicações práticas, capacitando os alunos a desenvolverem projetos 
+      simples em Python.
+  </p>
+</article>
+
+
+<article class="intervalCardReveal">
+  <div>
+      <img src="assets/image/certificates/certificado_gemini.png" width="100px" height="100px" alt="ícone código" />
+  </div>
+  <h3>IMERSÃO DEV COM GOOGLE GEMINI</h3>
+  <p>
+      Curso rápido que ensina desenvolvimento web com Java, HTML e CSS, focando na criação de 
+      interfaces responsivas e dinâmicas usando a tecnologia Gemini.
+  </p>
+</article>
+
+
+<article class="intervalCardReveal">
+  <div>
+      <img src="assets/image/certificates/certificado_inova.png" width="100px" height="100px" alt="ícone código" />
+  </div>
+  <h3>Escola de Inovadores - INOVA</h3>
+  <p>
+      Curso que apoia a transformação de ideias em projetos, oferecendo orientações e sugestões para 
+      desenvolver e executar iniciativas inovadoras.
+  </p>
+</article>
+
+
+          <<article class="intervalCardReveal">
+            <div>
+                <img src="assets/image/certificates/Certificado_IOCHPE.png" width="100px" height="100px" alt="ícone código" />
+            </div>
+            <h3>Criatividade e Inovação</h3>
+            <p>
+                Curso que desenvolve habilidades criativas e inovações práticas, capacitando 
+                participantes a resolver desafios com soluções originais.
+            </p>
+        </article>
+        
+
+        <article class="intervalCardReveal">
+          <div>
+              <img src="assets/image/certificates/certificado_logica_de_programação.png" width="100px" height="100px" alt="ícone código" />
+          </div>
+          <h3>Lógica de Programação - SENAI</h3>
+          <p>
+              Curso de 12 horas que introduz os fundamentos da lógica de programação, incluindo 
+              algoritmos e estruturas de controle, ideal para iniciantes.
+          </p>
+      </article>
+      
+
+      <article class="intervalCardReveal">
+        <div>
+            <img src="assets/image/certificates/certificado_manutenção_de_computador_celular.png" width="100px" height="100px" alt="ícone código" />
+        </div>
+        <h3>Manutenção de Computador e Celular</h3>
+        <p>
+            Curso focado em técnicas de diagnóstico e reparo de hardware e software de computadores e celulares, 
+            capacitando para atuar na área de suporte técnico.
+        </p>
+    </article>
+    
+
+    <article class="intervalCardReveal">
+      <div>
+          <img src="assets/image/certificates/certificado_marketing_digital.png" width="100px" height="100px" alt="ícone código" />
+      </div>
+      <h3>Fundamentos do Marketing Digital - SENAI</h3>
+      <p>
+          Curso que apresenta os conceitos básicos do marketing digital, incluindo estratégias online, 
+          redes sociais e SEO, preparando os alunos para o mercado.
+      </p>
+  </article>
+  
+
+  <article class="intervalCardReveal">
+    <div>
+        <img src="assets/image/certificates/certificado_photoshop.png" width="100px" height="100px" alt="ícone código" />
+    </div>
+    <h3>Design e Photoshop</h3>
+    <p>
+        Curso rápido que ensina os fundamentos do design gráfico e o uso do Photoshop, capacitando os alunos a criar e editar imagens para diversas aplicações.
+    </p>
+</article>
+
+
+<article class="intervalCardReveal">
+  <div>
+      <img src="assets/image/certificates/certificado_saúde_mental_emocional.png" width="100px" height="100px" alt="ícone código" />
+  </div>
+  <h3>Palestra Saúde Mental e Emocional - FADI</h3>
+  <p>
+      A palestra destacou a importância da saúde mental e emocional, oferecendo estratégias para promover o bem-estar, gerenciar o estresse e desenvolver resiliência. Também enfatizou a relevância do autocuidado e da busca por apoio profissional.
+  </p>
+</article>
+
+<article class="intervalCardReveal">
+  <div>
+      <img src="assets/image/certificates/certificado_segurança_cibernética.png" width="100px" height="100px" alt="ícone código" />
+  </div>
+  <h3>Segurança Cibernética - SENAI</h3>
+  <p>
+      O curso abordou conceitos fundamentais de segurança cibernética, incluindo proteção de dados, prevenção de ataques e técnicas de mitigação de riscos. Os participantes aprenderam a identificar vulnerabilidades e implementar medidas de segurança eficazes.
+  </p>
+</article>
+
+
+<article class="intervalCardReveal">
+  <div>
+      <img src="assets/image/certificates/certificado_violência_contra_a_mulher.png" width="100px" height="100px" alt="ícone código" />
+  </div>
+  <h3>Combate à Violência Contra a Mulher - FADI</h3>
+  <p>
+      O curso abordou a importância da conscientização e prevenção da violência contra a mulher. Os participantes discutiram questões legais, sociais e psicológicas, aprendendo a identificar sinais de abuso e as formas de apoio às vítimas.
+  </p>
+</article>
+
+
+<article class="intervalCardReveal">
+  <div>
+      <img src="assets/image/certificates/certificado-ipssi.png" width="100px" height="100px" alt="ícone código" />
+  </div>
+  <h3>Segurança em Tecnologia da Informação</h3>
+  <p>
+      O curso abordou os principais conceitos e práticas de segurança da informação, incluindo identificação de riscos, proteção de dados e prevenção de ataques cibernéticos. Os participantes aprenderam a implementar medidas de segurança para proteger sistemas e informações sensíveis.
+  </p>
+</article>
+
+
+<article class="intervalCardReveal">
+  <div>
+      <img src="assets/image/certificates/ibsec-ipssi.jpg" width="100px" height="100px" alt="ícone código" />
+  </div>
+  <h3>IBSEC - Fundamentos em Cibersegurança</h3>
+  <p>
+      O curso apresentou os conceitos básicos de cibersegurança, abordando técnicas de proteção contra ameaças digitais, identificação de vulnerabilidades e estratégias para garantir a segurança de sistemas e dados. Os participantes adquiriram conhecimentos essenciais para atuar na área de segurança da informação.
+  </p>
+</article>
+
+<article class="intervalCardReveal">
+    <div>
+        <img src="assets/image/certificates/CBTech.png" width="100px" height="100px" alt="ícone código" />
+    </div>
+    <h3>CBTech Conference 2024</h3>
+    <p>
+        A CBTech Conference 2024 é um evento voltado para profissionais e entusiastas da tecnologia, promovendo discussões sobre as últimas tendências e inovações no setor. O evento oferece palestras, workshops e oportunidades de networking, abordando temas como desenvolvimento de software, cibersegurança, e soluções em nuvem. Os participantes têm a chance de aprender com especialistas renomados e expandir suas habilidades técnicas.
+    </p>
+</article>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--Seção Projetos-->
+
+    <section id="s-projects">
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">Projetos<span>.</span></h2>
+        <div id="projects">
+          <article class="intervalCardReveal naped">
+            <h3>Em breve...</h3>
+            <p>
+              Em breve novos projetos, tome um café e espere um pouco até lá!!
+            </p>
+
+            <a href="#" rel="noopener" target="_blank" id="naped">Visualizar projeto
+            </a>
+          </article>
+
+          <article class="intervalCardReveal naped">
+            <h3>Em breve...</h3>
+            <p>
+              Em breve novos projetos, tome um café e espere um pouco até lá!!
+            </p>
+
+            <a href="#" rel="noopener" target="_blank" id="naped">Visualizar projeto
+            </a>
+          </article>
+
+          <article class="intervalCardReveal naped">
+            <h3>Em breve...</h3>
+            <p>
+              Em breve novos projetos, tome um café e espere um pouco até lá!!
+            </p>
+
+            <a href="#" rel="noopener" target="_blank" id="naped">Visualizar projeto
+            </a>
+          </article>
+
+          <article class="intervalCardReveal naped">
+            <h3>Em breve...</h3>
+            <p>
+              Em breve novos projetos, tome um café e espere um pouco até lá!!
+            </p>
+
+            <a href="#" rel="noopener" target="_blank" id="naped">Visualizar projeto
+            </a>
+          </article>
+
+          <article class="intervalCardReveal naped">
+            <h3>Em breve...</h3>
+            <p>
+              Em breve novos projetos, tome um café e espere um pouco até lá!!
+            </p>
+
+            <a href="#" rel="noopener" target="_blank" id="naped">Visualizar projeto
+            </a>
+          </article>
+
+          <article class="intervalCardReveal naped">
+            <h3>Em breve...</h3>
+            <p>
+              Em breve novos projetos, tome um café e espere um pouco até lá!!
+            </p>
+
+            <a href="#" rel="noopener" target="_blank" id="naped">Visualizar projeto
+            </a>
+          </article>
+        </div>
+        <a href="https://github.com/Isadora5959" rel="noopener" target="_blank" class="delayExtraBigReveal">Repositórios
+          no GitHub</a>
+      </div>
+    </section>
+
+    <!-- Seção P-techs -->
+
+    <section id="s-p-techs" class="blog_ptech">
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">P-techs<span>.</span></h2>
+        <ul class="materias">
+          <!-- Postagem 1 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Primeiro encontro do P-tech
+              </h3>
+              <p class="blog-descricao">Primeiro encontro com as empresas eduzz, uno e tegra.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">O primeiro encontro do P-tech foi um momento muito especial, 
+                  onde definimos como seriam as palestras e dinâmicas no futuro. Em um ambiente colaborativo, 
+                  conversamos sobre o foco das palestras, que seriam voltadas para o desenvolvimento profissional 
+                  e a troca de experiências.
+                  A proposta era convidar especialistas para compartilharem suas vivências e insights, enquanto 
+                  as dinâmicas seriam bem interativas, garantindo que todos pudessem participar ativamente. 
+                  Além disso, decidimos que as sessões abordariam habilidades práticas, como liderança, comunicação 
+                  e tecnologia. O nosso objetivo era criar um espaço enriquecedor e divertido, onde cada um pudesse 
+                  contribuir e crescer junto com os outros!</p>
+                <p class="date">Data: 25/03/2022</p>
+              </div>
+              <img src="./assets/image/p-tech/(1) 25-03-22/1.png" alt="Descrição da imagem 1" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 2 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Conduta ética
+              </h3>
+              <p class="blog-descricao">Conversa abordando sobre valores éticos.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">A ética no ambiente de trabalho é fundamental para garantir a integridade e a confiança 
+                  nas relações profissionais. Durante uma dinâmica, discutimos um cenário complicado: um funcionário de um 
+                  banco, encarregado de movimentar dinheiro, enfrenta a tentadora decisão de desviar um centavo de cada conta 
+                  para financiar o tratamento médico urgente de um parente.
+                  Esse dilema exemplifica o conflito entre valores pessoais e deveres profissionais. Embora seja natural querer 
+                  ajudar um familiar em dificuldade, desviar fundos é uma violação ética que pode acarretar sérias consequências 
+                  legais e prejudicar a reputação da instituição. Essa dinâmica nos fez refletir sobre a importância de manter 
+                  os princípios éticos, mesmo em momentos de pressão, e de encontrar soluções que respeitem tanto a legislação 
+                  quanto os valores morais.</p>
+                <p class="date">Data: 19/04/2022</p>
+              </div>
+              <img src="./assets/image/p-tech/(2) 19-04-22/1.png" alt="Descrição da imagem 2" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 3 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Visita técnica na eduzz
+              </h3>
+              <p class="blog-descricao">Visita técnica a empresa Eduzz sediada em Sorocaba.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">Um dia de trabalho na EDUZZ é cheio de energia e colaboração. Os colaboradores iniciam
+                   o dia com reuniões rápidas para alinhar as tarefas e as metas. O ambiente é dinâmico, com equipes 
+                   interdisciplinares que atuam em projetos diversos, que vão desde marketing até o desenvolvimento de plataformas.
+                  Ao longo do dia, os funcionários participam de atividades como brainstorming, análise de dados e suporte aos 
+                  parceiros. A EDUZZ valoriza a inovação, promovendo a troca de ideias e o aprendizado constante. O clima é 
+                  leve e descontraído, com espaços dedicados para descompressão e interação entre as equipes, fortalecendo o 
+                  senso de comunidade entre todos.</p>
+                <p class="date">Data: 13/05/2022</p>
+              </div>
+              <img src="./assets/image/p-tech/(3) 13-05-22/56.png" alt="Descrição da imagem 3" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 4 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Comunicação interpessoal - como melhorar a sua?
+              </h3>
+              <p class="blog-descricao">Sugestões de como melhorar as minhas próprias interações pessoais</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">Para melhorar sua comunicação interpessoal, comece prestando atenção ao que os 
+                  outros dizem, demonstrando um interesse genuíno em suas palavras. Exercite a empatia, tentando se 
+                  colocar no lugar da pessoa com quem você está falando para entender suas ideias e sentimentos de 
+                  maneira mais profunda.
+                  Use uma linguagem simples e direta, evitando termos técnicos que possam causar confusão. Solicitar 
+                  feedback sobre sua maneira de se comunicar é fundamental; esteja disposto a ouvir opiniões e críticas
+                  construtivas. Por fim, trabalhe suas habilidades de comunicação não verbal, utilizando gestos e 
+                  expressões faciais para transmitir confiança e envolvimento. Essas abordagens ajudarão a criar 
+                  relacionamentos mais saudáveis e a minimizar mal-entendidos.</p>
+                <p class="date">Data: 30/09/2022</p>
+              </div>
+              <img src="./assets/image/p-tech/(4) 30-09-22/1.png" alt="Descrição da imagem 4" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 5 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Dia a dia do analista de suporte
+              </h3>
+              <p class="blog-descricao">Rotina diária de um profissional atuante como analista de suporte.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">A rotina de um analista de suporte é focada em resolver problemas técnicos e ajudar os 
+                  usuários com questões sobre sistemas e softwares. O dia começa monitorando os tickets de atendimento, 
+                  priorizando os mais urgentes.
+                  O analista conversa com os usuários para entender os problemas, faz diagnósticos e oferece soluções, seja 
+                  por telefone, e-mail ou chat. Também realiza testes, registra processos e atualiza sistemas. Esse trabalho 
+                  é essencial para garantir que tudo funcione bem e para manter os clientes satisfeitos.</p>
+                <p class="date">Data: 27/04/2023</p>
+              </div>
+              <img src="./assets/image/p-tech/(5) 27-04-23/2.png" alt="Descrição da imagem 5" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 6 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Boas vindas da empresa ITIX
+              </h3>
+              <p class="blog-descricao">A história e os ideiais da ITIX.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">A ITIX, estabelecida em 2002, é uma companhia brasileira dedicada a oferecer soluções em 
+                  tecnologia da informação, com ênfase em automação de processos e inteligência artificial. Desde o início, a 
+                  empresa tem se destacado pela inovação e pelo seu compromisso com a transformação digital.
+                  Para melhorar a eficiência operacional, a ITIX cria ferramentas personalizadas que atendem às demandas de 
+                  seus clientes. Com o objetivo de aumentar sua presença no mercado, a empresa atua para impulsionar o crescimento 
+                  e a evolução digital das organizações, tanto no Brasil quanto em outros países.</p>
+                <p class="date">Data: 04/05/2023</p>
+              </div>
+              <img src="./assets/image/p-tech/(6) 04-05-23/3.png" alt="Descrição da imagem 6" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 7 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                De estagiária a analista de requisitos - como interpretação e relacionamento humano tem tanto valor
+                quanto escrever código
+              </h3>
+              <p class="blog-descricao">Do início de carreira até a sua promoção.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">A jornada de estagiária a Analista de Requisitos mostra que, além de saber programar, habilidades 
+                  interpessoais e de interpretação são super importantes. Como analista, é fundamental entender o que os stakeholders 
+                  precisam e traduzir essas informações em requisitos claros para o projeto ter sucesso.
+                  O relacionamento humano é essencial, pois ter uma comunicação boa com as equipes e clientes garante que todo 
+                  mundo esteja na mesma página. Além de codificar, é crucial entender o contexto e as expectativas dos usuários 
+                  para desenvolver soluções que realmente resolvam as necessidades do negócio. Essa mistura de habilidades técnicas 
+                  e interpessoais não só ajuda a carreira na área de TI, mas também torna o trabalho em equipe muito mais enriquecedor!</p>
+                <p class="date">Data: 05/05/2023</p>
+              </div>
+              <img src="./assets/image/p-tech/(7) 05-05-23/2.png" alt="Descrição da imagem 7" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 8 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Palestra e oficina: como gerenciar seu talento
+              </h3>
+              <p class="blog-descricao">Como posso administrar minhas habilidades.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">Palestras e oficinas são oportunidades incríveis para aprender a gerenciar seu talento e desenvolver 
+                  suas habilidades profissionais. Participar de uma palestra pode trazer insights valiosos sobre crescimento pessoal e 
+                  ajudar a fazer contatos, enquanto as oficinas práticas permitem aplicar o que você aprendeu em situações reais.
+                  Um passo importante nesse processo é criar um currículo que se destaque. É fundamental ressaltar suas habilidades, 
+                  experiências e conquistas de maneira clara e direta. Personalize seu currículo para cada vaga, focando nas competências 
+                  que mais se encaixam na posição desejada. Ao juntar o aprendizado em palestras e oficinas com um currículo bem estruturado, 
+                  você aumenta suas chances de se destacar no mercado de trabalho.</p>
+                <p class="date">Data: 22/09/2023</p>
+              </div>
+              <img src="./assets/image/p-tech/(8) 22-09-23/2.png" alt="Descrição da imagem 8" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 9 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Treinamento presencial de uma nova ferramenta da ITIX
+              </h3>
+              <p class="blog-descricao">Novo método de trabalho, criando um projeto com a ITIX.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">Para fazer uma empresa com baixo potencial de crescimento se destacar, comece identificando um nicho 
+                  de mercado específico. Utilize a análise de dados para compreender melhor as necessidades dos clientes e aprimorar seus produtos.
+                  Priorize a experiência do cliente, forme parcerias estratégicas e aproveite o marketing digital para aumentar sua visibilidade. 
+                  Invista no desenvolvimento da equipe e incentive uma cultura de inovação. Com essas estratégias, você pode revitalizar sua 
+                  empresa e estimular seu crescimento.</p>
+                <p class="date">Data: 16/11/2023</p>
+              </div>
+              <img src="./assets/image/p-tech/(9) 16-11-23/8.png" alt="Descrição da imagem 9" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 10 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Criatividade e inovação: um desafio constante
+              </h3>
+              <p class="blog-descricao">A importância de constantemente estar inova no ambiente corporativo.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">Estimular a resolução de problemas e o desenvolvimento de novos produtos é fundamental. No entanto, 
+                  cultivar essas habilidades requer um esforço contínuo, incluindo estar aberto a novas ideias e disposto a sair da zona 
+                  de conforto.
+                  É crucial criar um ambiente que incentive a colaboração e a experimentação. Empresas que priorizam a inovação atraem 
+                  talentos e se tornam mais competitivas, tornando essa abordagem essencial para o crescimento e o sucesso. Enfrentar esse 
+                  desafio é vital para prosperar no mercado atual.</p>
+                <p class="date">Data: 08/04/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(10) 08-04-24/1.png" alt="Descrição da imagem 10" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 11 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                As possibilidades da IA no mercado de trabalho
+              </h3>
+              <p class="blog-descricao">Impacto gerado pelas novas tecnologias no mercado profissional.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">A inteligência artificial (IA) está mudando radicalmente o cenário profissional, permitindo que as empresas otimizem 
+                  processos e automatizem tarefas repetitivas. Isso resulta em um aumento significativo na eficiência e na capacidade de tomar decisões 
+                  com base em dados em tempo real.
+                  Essa revolução não só cria novas oportunidades em campos como desenvolvimento de algoritmos e ética em IA, mas também está gerando 
+                  uma crescente demanda por profissionais que dominam machine learning. Embora essa transformação exija novas habilidades, ela também 
+                  abre portas para carreiras mais criativas e estratégicas, proporcionando um futuro promissor para aqueles dispostos a se adaptar.</p>
+                <p class="date">Data: 23/05/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(11) 23-05-24/2.png" alt="Descrição da imagem 11" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 12 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Liderança e gestão 3.0
+              </h3>
+              <p class="blog-descricao">Como liderar e gerenciar equipes de maneira eficaz.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">A liderança e gestão 3.0 é uma abordagem contemporânea que foca na colaboração, motivação 
+                  e inovação dentro das organizações. Ao contrário dos modelos tradicionais, que priorizam hierarquia e controle, 
+                  a gestão 3.0 valoriza a autonomia das equipes, criando um ambiente onde os colaboradores são encorajados a 
+                  compartilhar suas ideias e assumir responsabilidades.
+                  Esse modelo é fundamentado em princípios como a auto-organização, que permite que as equipes tomem decisões de 
+                  forma independente, e o feedback contínuo, essencial para o aprendizado constante. A liderança 3.0 também se 
+                  concentra no desenvolvimento dos indivíduos, reconhecendo que equipes motivadas e felizes são fundamentais 
+                  para o sucesso de qualquer negócio. Essa abordagem não apenas aumenta a produtividade, mas também contribui 
+                  para uma cultura organizacional mais saudável e inovadora.</p>
+                <p class="date">Data: 27/05/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(12) 27-05-24/2.png" alt="Descrição da imagem 12" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 13 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Explorando homelabs: por que criar o seu próprio ambiente de desenvolvimento pode transformar sua
+                carreria de TI
+              </h3>
+              <p class="blog-descricao">Benefícios de criar o próprio ambiente de trabalho.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">Explorar um homelab é uma excelente maneira de alavancar sua carreira em tecnologia da informação. 
+                  Criar um ambiente de desenvolvimento próprio permite que você teste novas tecnologias, experimente conceitos e adquira 
+                  habilidades práticas sem as limitações encontradas em um ambiente corporativo.
+                  Com um homelab, você pode configurar servidores, implementar redes, trabalhar com virtualização e automação, e até simular 
+                  diferentes cenários de segurança. Essa experiência oferece uma compreensão mais aprofundada das ferramentas e processos, 
+                  além de ser uma ótima chance de montar um portfólio impressionante. Ao compartilhar suas experiências e projetos, você se 
+                  destaca no mercado, demonstrando proatividade e competência técnica para potenciais empregadores.</p>
+                <p class="date">Data: 18/06/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(13) 18-06-24/18.png" alt="Descrição da imagem 13" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 14 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Hacker do bem e a segurança digital no dia-a-dia
+              </h3>
+              <p class="blog-descricao">A importância de manter seus dados seguros nos dias atuais.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">Um hacker do bem, ou hacker ético, é um especialista em segurança digital que utiliza suas 
+                  habilidades para encontrar e corrigir falhas em sistemas, ajudando a prevenir ataques maliciosos. Esses profissionais 
+                  desempenham um papel importante na proteção de redes, dados e aplicativos, garantindo mais segurança para empresas e usuários.
+                  No dia a dia, adotar práticas de segurança digital é essencial. Medidas simples, como usar senhas fortes, habilitar a 
+                  autenticação em dois fatores, atualizar softwares regularmente e desconfiar de links suspeitos, podem ajudar a proteger 
+                  contra ameaças cibernéticas. Os hackers éticos se dedicam a antecipar esses perigos, tornando a internet um lugar mais seguro 
+                  para todos.</p>
+                <p class="date">Data: 31/07/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(14) 31-07-24/2.png" alt="Descrição da imagem 14" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 15 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Você é uma pessoa organizada?
+              </h3>
+              <p class="blog-descricao">Como ser organizado pode fazer você ser mais acertivo e produtivo no que faz.
+              </p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">Ser uma pessoa organizada significa saber planejar e priorizar suas atividades, equilibrando suas 
+                  responsabilidades. Algumas estratégias úteis incluem listas de tarefas (to-do lists), calendários para marcar compromissos 
+                  e prazos, e a técnica Pomodoro, que divide o tempo em períodos de trabalho e pausas.
+                  Outra abordagem eficaz é usar a Matriz de Eisenhower, que ajuda a diferenciar entre o que é urgente e o que é importante. 
+                  Ao adotar esses hábitos no dia a dia, é possível manter o foco, evitar o acúmulo de tarefas e aumentar a produtividade de 
+                  forma organizada e eficiente.</p>
+                <p class="date">Data: 28/08/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(15) 28-08-24/13.png" alt="Descrição da imagem 15" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 16 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Fluxo de operações comercial - UNO ERP
+              </h3>
+              <p class="blog-descricao">Funcionamento de um sistema de gestão empresarial.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">O Fluxo de Operações Comerciais em um ERP (Planejamento de Recursos Empresariais) é um 
+                  processo que integra todas as etapas de vendas e operações de uma empresa. Esse fluxo começa com o pedido 
+                  de venda, passa pela emissão de notas fiscais, e vai até o controle de estoque e o recebimento de pagamentos.
+                  Ao automatizar tarefas e consolidar informações em um único sistema, o ERP permite que as equipes de vendas, 
+                  finanças e logística atuem de maneira coordenada. O principal objetivo é garantir eficiência, minimizar erros 
+                  e oferecer uma visão abrangente das operações, o que facilita a tomada de decisões e o monitoramento do desempenho 
+                  comercial.</p>
+                <p class="date">Data: 29/08/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(16) 29-08-24/10.png" alt="Descrição da imagem 16" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 17 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Quais as tendências da área de TI com a virada da IA generativa e outras tecnologias
+              </h3>
+              <p class="blog-descricao">Conversa sobre a virada da IA generativa na área de TI.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">A virada da IA Generativa está provocando grandes mudanças na área de TI. Ferramentas como ChatGPT e 
+                  DALL-E estão transformando o desenvolvimento de software, a automação de tarefas e a criação de conteúdo. Outro aspecto 
+                  importante é a automação inteligente, que integra a IA aos processos empresariais para aumentar a eficiência.
+                  Além disso, tecnologias como computação em nuvem, cibersegurança avançada e machine learning estão em constante evolução, 
+                  priorizando escalabilidade e proteção de dados. A combinação dessas inovações está moldando o futuro da TI, exigindo que 
+                  os profissionais se adaptem rapidamente e adquiram novas habilidades.</p>
+                <p class="date">Data: 05/09/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(17) 05-09-24/24.png" alt="Descrição da imagem 17" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 18 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Como posso ter uma carreira bem sucedida?
+              </h3>
+              <p class="blog-descricao">Contruindo uma trajetória profissional de sucesso.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">Para alcançar uma carreira bem-sucedida, é crucial desenvolver uma marca pessoal que represente sua 
+                  essência e o valor do seu trabalho. Isso inclui aprimorar suas habilidades técnicas, além de dedicar atenção às soft 
+                  skills, como comunicação, empatia e liderança, que são vitais no ambiente de trabalho.
+                  Ter uma abordagem ou estilo distintivo que reflita seu trabalho pode ajudar a diferenciar sua presença no mercado. 
+                  Ademais, redes sociais profissionais como o LinkedIn são essenciais para divulgar suas realizações e a sua imagem. 
+                  Compartilhar experiências, interagir em discussões e manter uma rede ativa são práticas que reforçam sua reputação e 
+                  podem abrir novas portas em sua carreira.</p>
+                <p class="date">Data: 19/09/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(18) 19-09-24/2.png" alt="Descrição da imagem 18" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 19 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Capricho: skill cada vez mais rara no mercado de trabalho
+              </h3>
+              <p class="blog-descricao">Ser detalhista um ponto positivo em um mercado extremamente competitivo.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">Dar o seu melhor implica em se dedicar e ter cuidado, sempre buscando entregar um trabalho de qualidade. 
+                  No contexto da programação, isso significa criar um código limpo, desenvolver soluções eficientes e estar sempre aprendendo. 
+                  Ferramentas como organização, checklists e revisões são úteis para manter esse nível de excelência.
+                  Entretanto, não é fácil encontrar profissionais que se empenhem de verdade, pois muitos se contentam em "fazer funcionar", 
+                  sem se preocupar com a qualidade e a manutenção do código. O que realmente faz a diferença são aqueles que estão dispostos a 
+                  evoluir e oferecer o melhor em tudo o que fazem.</p>
+                <p class="date">Data: 24/09/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(19) 24-09-24/4.png" alt="Descrição da imagem 19" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 20 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Desenvolvimento low code
+              </h3>
+              <p class="blog-descricao">Diferenças e vantagens da programação do futuro low code e no code.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">As abordagens de low code e no code tornam o desenvolvimento de software mais acessível. O low code permite a 
+                  criação de aplicativos utilizando blocos visuais, além de um pouco de programação, acelerando o processo e possibilitando 
+                  customizações, mas requer um conhecimento técnico básico. Já o no code elimina totalmente a necessidade de programação, 
+                  utilizando interfaces visuais para desenvolver soluções de forma simples e rápida, embora ofereça menos flexibilidade.
+                  A principal diferença entre as duas está na personalização: o low code oferece mais controle e opções, enquanto o no code é 
+                  mais restrito. Em comparação com a programação tradicional, ambas as metodologias são mais rápidas e fáceis de usar, mas podem 
+                  sacrificar flexibilidade e complexidade.</p>
+                <p class="date">Data: 10/10/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(20) 10-10-24/12.png" alt="Descrição da imagem 20" class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 21 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Jornada: criatividade e inovação | Etecs
+                <p class="blog-descricao">Realizado dentro da plataforma da fundação Ioschpe.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">A Fundação Ioschpe abordou o tema "Criatividade e Inovação", destacando diversas referências que propõem métodos 
+                  para estimular a criatividade, como a matriz GUT, o biomimetismo e o design thinking. Essas abordagens visam desenvolver soluções 
+                  inovadoras por meio da observação da natureza, da criatividade e da priorização de projetos.
+                  Além disso, a aplicação prática de técnicas como SCAMPER e crowdsourcing é incentivada, facilitando a geração de ideias e a colaboração 
+                  em grupo. O principal objetivo é aprimorar habilidades criativas que fomentem a inovação em diversas áreas, promovendo um aprendizado 
+                  contínuo e a utilização de ferramentas estratégicas no ambiente profissional.</p>
+                <p class="date">Data: 11/10/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(21) curso Ioschpe/ioschpe.png" alt="Descrição da imagem 21"
+                class="tech-image" />
+            </div>
+          </li>
+          <!-- Postagem 22 -->
+          <li class="tech-item">
+            <a href="#" class="tech-summary">
+              <h3 class="blog-titulo">
+                Preparando-se para o amanhã: da FATEC para o mundo
+              </h3>
+              <p class="blog-descricao">Experiências e trajetória da carreira profissional com Flávia Freitas.</p>
+            </a>
+            <div class="tech-detail">
+              <div class="tech-content">
+                <p class="short-text">A palestra "Preparando-se para o amanhã: da FATEC para o mundo" focou em como os estudantes podem se 
+                  preparar para suas futuras carreiras. Flávia Freitas compartilhou sua trajetória, encorajando os participantes a deixarem 
+                  sua zona de conforto, a construírem uma rede de contatos e a buscarem experiências variadas. Ela ressaltou a importância 
+                  da curiosidade e do trabalho em equipe, destacando que hábitos positivos são fundamentais para formar bons profissionais 
+                  ao longo do tempo.
+                  Além disso, Flávia anunciou uma colaboração entre a IBM e a Fundação Iochpe, que irá oferecer um curso de 60 horas sobre 
+                  novas tecnologias, gerenciamento de projetos e desenvolvimento de carreira. O programa incluirá certificados com validação 
+                  internacional. A palestrante também respondeu a perguntas sobre inclusão no mercado de trabalho e sua trajetória profissional, 
+                  mostrando como suas experiências pessoais contribuíram para seu sucesso na carreira.</p>
+                <p class="date">Data: 17/10/2024</p>
+              </div>
+              <img src="./assets/image/p-tech/(22) 17-10-24/18.jpeg" alt="Descrição da imagem 22" class="tech-image" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--Rodapé da Página-->
+
+    <footer>
+      <div class="grid-layout">
+        <p>Copyright © 2024 Feito com amor by Isadora Correa.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+  - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
